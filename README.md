@@ -85,15 +85,14 @@ Rodar a aplicação:
 ou
 
 ```bash
-
 mvn spring-boot:run
 ```
-A API estará disponível em:
 
-arduino
+A API estará disponível em:
 ```
 http://localhost:8080
 ```
+
 📡 Endpoints da API
 ➕ Criar tarefa
 POST /tarefas
@@ -135,11 +134,12 @@ DELETE /tarefas/{id}
 🗄️ Configuração do MongoDB no Spring Boot
 No arquivo src/main/resources/application.properties:
 
-properties
-Copiar código
+```
 spring.data.mongodb.host=localhost
 spring.data.mongodb.port=27017
 spring.data.mongodb.database=tarefasdb
+```
+
 📌 Observações
 O MongoDB deve estar rodando antes de iniciar a aplicação Spring Boot.
 
@@ -148,8 +148,7 @@ O campo status deve conter apenas: PENDENTE, EM_ANDAMENTO ou CONCLUIDA.
 Em produção, considere usar autenticação e configuração segura para o MongoDB.
 
 📁 Estrutura do projeto
-bash
-Copiar código
+```bash
 api-tarefas-mongodb/
 ├── src/
 │   ├── main/
