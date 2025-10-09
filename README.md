@@ -44,55 +44,63 @@ Para verificar, abra **Windows Services** e procure por *MongoDB*.
 2. Navegue até a pasta onde o MongoDB foi instalado, exemplo:
 ```powershell
 cd "C:\Program Files\MongoDB\Server\6.0\bin"
+```
 Crie a pasta de dados, se não existir:
 
-powershell
-Copiar código
+```powershell
+
 mkdir C:\data\db
+```
 Execute o MongoDB:
 
-powershell
-Copiar código
+``` powershell
+
 mongod
+```
 Agora o MongoDB estará rodando na porta padrão 27017.
 
 Testar conexão
 Abra outro terminal e digite:
 
-powershell
-Copiar código
+```powershell
+
 mongo
+```
 Se abrir o shell do MongoDB, a instalação está correta.
 
 🚀 Como rodar o projeto
 Clone o repositório:
 
-bash
-Copiar código
+```bash
+
 git clone https://github.com/SEU_USUARIO/api-tarefas-mongodb.git
 cd api-tarefas-mongodb
+```
 Rodar a aplicação:
 
-bash
-Copiar código
+```bash
+
 ./mvnw spring-boot:run
+```
 ou
 
-bash
-Copiar código
+```bash
+
 mvn spring-boot:run
+```
 A API estará disponível em:
 
 arduino
-Copiar código
+```
 http://localhost:8080
+```
 📡 Endpoints da API
 ➕ Criar tarefa
 POST /tarefas
 Body (JSON):
 
-json
-Copiar código
+```json
+
 {
   "titulo": "Estudar Spring Boot",
   "descricao": "Praticar CRUD com MongoDB",
@@ -100,6 +108,7 @@ Copiar código
   "dataConclusao": "2025-10-10",
   "status": "PENDENTE"
 }
+```
 📋 Listar todas as tarefas
 GET /tarefas
 
@@ -110,8 +119,8 @@ GET /tarefas/{id}
 PUT /tarefas/{id}
 Body (JSON):
 
-json
-Copiar código
+```json
+
 {
   "titulo": "Estudar Spring Boot",
   "descricao": "CRUD com MongoDB atualizado",
@@ -119,6 +128,7 @@ Copiar código
   "dataConclusao": "2025-10-12",
   "status": "EM_ANDAMENTO"
 }
+```
 ❌ Deletar tarefa
 DELETE /tarefas/{id}
 
