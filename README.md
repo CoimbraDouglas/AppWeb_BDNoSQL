@@ -27,7 +27,7 @@ Cada tarefa contém os seguintes campos:
 Antes de executar o projeto, certifique-se de ter instalado:
 - [Java JDK 17+](https://www.oracle.com/java/technologies/javase-downloads.html)
 - [Maven](https://maven.apache.org/download.cgi)
-- [MongoDB Community Server](https://www.mongodb.com/try/download/community)
+- [MongoDB Community Server] (https://www.mongodb.com/try/download/community)
 - IDE (Visual Studio Code, IntelliJ, Eclipse, etc.)
 
 ---
