@@ -68,12 +68,14 @@ mongo
 ```
 Se abrir o shell do MongoDB, a instalação está correta.
 
+---
+
 🚀 Como rodar o projeto
 Clone o repositório:
 
 ```bash
 
-git clone https://github.com/SEU_USUARIO/api-tarefas-mongodb.git
+git clone https://github.com/CoimbraDouglas/AppWeb_BDNoSQL.git
 cd api-tarefas-mongodb
 ```
 Rodar a aplicação:
@@ -92,6 +94,8 @@ A API estará disponível em:
 ```
 http://localhost:8080
 ```
+
+---
 
 📡 Endpoints da API
 ➕ Criar tarefa
@@ -140,6 +144,8 @@ spring.data.mongodb.port=27017
 spring.data.mongodb.database=tarefasdb
 ```
 
+---
+
 📌 Observações
 O MongoDB deve estar rodando antes de iniciar a aplicação Spring Boot.
 
@@ -147,7 +153,10 @@ O campo status deve conter apenas: PENDENTE, EM_ANDAMENTO ou CONCLUIDA.
 
 Em produção, considere usar autenticação e configuração segura para o MongoDB.
 
+---
+
 📁 Estrutura do projeto
+
 ```bash
 api-tarefas-mongodb/
 ├── src/
