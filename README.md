@@ -98,8 +98,9 @@ http://localhost:8080
 ---
 
 📡 Endpoints da API
+
 ➕ Criar tarefa
-POST /tarefas
+- POST /tarefas
 Body (JSON):
 
 ```json
@@ -113,13 +114,13 @@ Body (JSON):
 }
 ```
 📋 Listar todas as tarefas
-GET /tarefas
+- GET /tarefas
 
 🔍 Buscar tarefa por ID
-GET /tarefas/{id}
+- GET /tarefas/{id}
 
 ✏️ Atualizar tarefa
-PUT /tarefas/{id}
+- PUT /tarefas/{id}
 Body (JSON):
 
 ```json
@@ -133,7 +134,7 @@ Body (JSON):
 }
 ```
 ❌ Deletar tarefa
-DELETE /tarefas/{id}
+- DELETE /tarefas/{id}
 
 🗄️ Configuração do MongoDB no Spring Boot
 No arquivo src/main/resources/application.properties:
