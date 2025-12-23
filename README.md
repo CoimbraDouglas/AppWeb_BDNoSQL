@@ -70,7 +70,7 @@ Se abrir o shell do MongoDB, a instalação está correta.
 
 ---
 
-# 🚀 Como rodar o projeto
+## 🚀 Como rodar o projeto
 Clone o repositório:
 
 ```bash
@@ -97,7 +97,7 @@ http://localhost:8080
 
 ---
 
-📡 Endpoints da API
+## 📡 Endpoints da API
 
 ➕ Criar tarefa
 * POST /tarefas
@@ -139,7 +139,7 @@ Body (JSON):
 
 ---
 
-# 🗄️ Configuração do MongoDB no Spring Boot
+## 🗄️ Configuração do MongoDB no Spring Boot
 No arquivo src/main/resources/application.properties:
 
 ```
@@ -150,7 +150,7 @@ spring.data.mongodb.database=tarefasdb
 
 ---
 
-# 📌 Observações
+## 📌 Observações
 O MongoDB deve estar rodando antes de iniciar a aplicação Spring Boot.
 
 O campo status deve conter apenas: PENDENTE, EM_ANDAMENTO ou CONCLUIDA.
@@ -159,7 +159,7 @@ Em produção, considere usar autenticação e configuração segura para o Mong
 
 ---
 
-# 📁 Estrutura do projeto
+## 📁 Estrutura do projeto
 
 ```bash
 api-tarefas-mongodb/
@@ -177,13 +177,13 @@ api-tarefas-mongodb/
 ```
 ---
 
-# 📸 Projeto em execução
+## 📸 Projeto em execução
 Exemplo de execução usando Postman:
 
 ![Descrição da Imagem](src/main/resources/images/Captela.png)
 
 ---
 
-# Detalhes do Projeto
+## 📋 Detalhes do Projeto
 
 📚 **Disciplina:** Arquitetura de Aplicacoes Web 👨‍🏫 **Professor:** Leonardo Vieira Guimarãe 🏫 **Instituição:** Centro Universitário Newton Paiva ✍️ **Aluno:** Douglas Coimbra Laass.
