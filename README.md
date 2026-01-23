@@ -71,6 +71,7 @@ Se abrir o shell do MongoDB, a instalação está correta.
 ---
 
 ## 🚀 Como rodar o projeto
+
 Clone o repositório:
 
 ```bash
@@ -99,7 +100,8 @@ http://localhost:8080
 
 ## 📡 Endpoints da API
 
-➕ Criar tarefa
+**➕ Criar tarefa**
+
 * POST /tarefas
 
 ```json
@@ -112,13 +114,16 @@ http://localhost:8080
   "status": "PENDENTE"
 }
 ```
-📋 Listar todas as tarefas
+**📋 Listar todas as tarefas**
+
 * GET /tarefas
 
-🔍 Buscar tarefa por ID
+**🔍 Buscar tarefa por ID**
+
 * GET /tarefas/{id}
 
-✏️ Atualizar tarefa
+**✏️ Atualizar tarefa**
+
 * PUT /tarefas/{id}
 
 Body (JSON):
@@ -133,7 +138,8 @@ Body (JSON):
   "status": "EM_ANDAMENTO"
 }
 ```
-❌ Deletar tarefa
+
+**❌ Deletar tarefa**
 
 * DELETE /tarefas/{id}
 
@@ -187,4 +193,7 @@ Exemplo de execução usando Postman:
 
 ## 📋 Detalhes do Projeto
 
-📚 **Disciplina:** Arquitetura de Aplicacoes Web 👨‍🏫 **Professor:** Leonardo Vieira Guimarãe 🏫 **Instituição:** Centro Universitário Newton Paiva ✍️ **Aluno:** Douglas Coimbra Laass.
+📚 **Disciplina:** Arquitetura de Aplicacoes Web 
+👨‍🏫 **Professor:** Leonardo Vieira Guimarãe 
+🏫 **Instituição:** Centro Universitário Newton Paiva 
+✍️ **Aluno:** Douglas Coimbra Laass.
