@@ -82,7 +82,6 @@ cd api-tarefas-mongodb
 Rodar a aplicação:
 
 ```bash
-
 ./mvnw spring-boot:run
 ```
 ou
@@ -92,6 +91,7 @@ mvn spring-boot:run
 ```
 
 A API estará disponível em:
+
 ```
 http://localhost:8080
 ```
@@ -100,7 +100,7 @@ http://localhost:8080
 
 ## 📡 Endpoints da API
 
-**➕ Criar tarefa**
+#### ➕ Criar tarefa**
 
 * POST /tarefas
 
@@ -114,7 +114,8 @@ http://localhost:8080
   "status": "PENDENTE"
 }
 ```
-**📋 Listar todas as tarefas**
+
+#### 📋 Listar todas as tarefas**
 
 * GET /tarefas
 
@@ -122,7 +123,7 @@ http://localhost:8080
 
 * GET /tarefas/{id}
 
-**✏️ Atualizar tarefa**
+#### ✏️ Atualizar tarefa**
 
 * PUT /tarefas/{id}
 
@@ -139,7 +140,7 @@ Body (JSON):
 }
 ```
 
-**❌ Deletar tarefa**
+#### ❌ Deletar tarefa**
 
 * DELETE /tarefas/{id}
 
