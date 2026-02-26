@@ -40,46 +40,48 @@ Após isso, o MongoDB iniciará automaticamente no Windows.
 Para verificar, abra **Windows Services** e procure por *MongoDB*.  
 
 ### **Opção B — Rodar manualmente**
+
 1. Abra o **Prompt de Comando** ou PowerShell.  
 2. Navegue até a pasta onde o MongoDB foi instalado, exemplo:
 ```powershell
 cd "C:\Program Files\MongoDB\Server\6.0\bin"
 ```
-Crie a pasta de dados, se não existir:
+- Crie a pasta de dados, se não existir:
 
 ```powershell
 
 mkdir C:\data\db
 ```
-Execute o MongoDB:
+- Execute o MongoDB:
 
 ``` powershell
 
 mongod
 ```
-Agora o MongoDB estará rodando na porta padrão 27017.
+*Agora o MongoDB estará rodando na porta padrão 27017, atualize se necessário.*
 
-Testar conexão
+-Testar conexão
+
 Abra outro terminal e digite:
 
 ```powershell
 
 mongo
 ```
-Se abrir o shell do MongoDB, a instalação está correta.
+*Se abrir o shell do MongoDB, a instalação está correta.*
 
 ---
 
 ## 🚀 Como rodar o projeto
 
-Clone o repositório:
+- Clone o repositório:
 
 ```bash
 
 git clone https://github.com/CoimbraDouglas/AppWeb_BDNoSQL.git
 cd api-tarefas-mongodb
 ```
-Rodar a aplicação:
+- Rodar a aplicação:
 
 ```bash
 ./mvnw spring-boot:run
@@ -90,7 +92,7 @@ ou
 mvn spring-boot:run
 ```
 
-A API estará disponível em:
+- A API estará disponível em:
 
 ```
 http://localhost:8080
@@ -158,9 +160,10 @@ spring.data.mongodb.database=tarefasdb
 ---
 
 ## 📌 Observações
+
 O MongoDB deve estar rodando antes de iniciar a aplicação Spring Boot.
 
-O campo status deve conter apenas: PENDENTE, EM_ANDAMENTO ou CONCLUIDA.
+O campo status deve conter apenas: `PENDENTE`, `EM_ANDAMENTO` ou `CONCLUIDA`.
 
 Em produção, considere usar autenticação e configuração segura para o MongoDB.
 
