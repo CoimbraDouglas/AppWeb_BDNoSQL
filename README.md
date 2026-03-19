@@ -24,6 +24,7 @@ Cada tarefa contém os seguintes campos:
 ---
 
 ## 📋 Pré-requisitos
+
 Antes de executar o projeto, certifique-se de ter instalado:
 - [Java JDK 17+](https://www.oracle.com/java/technologies/javase-downloads.html)
 - [Maven](https://maven.apache.org/download.cgi)
