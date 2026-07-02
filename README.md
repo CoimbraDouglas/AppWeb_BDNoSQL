@@ -43,6 +43,7 @@ Para verificar, abra **Windows Services** e procure por *MongoDB*.
 ### **Opção B — Rodar manualmente**
 
 1. Abra o **Prompt de Comando** ou PowerShell.  
+
 2. Navegue até a pasta onde o MongoDB foi instalado, exemplo:
 ```powershell
 cd "C:\Program Files\MongoDB\Server\6.0\bin"
